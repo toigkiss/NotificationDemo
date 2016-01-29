@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity"
+    android:paddingTop="10dp">
+    <Button
+        android:id="@+id/bt_tencent"
+        android:text="腾讯信鸽测试"
+        android:textColor="#FFFFFF"
+        android:layout_width="339dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#08A86D"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="OnClick"/>
+    <Button
+        android:id="@+id/bt_notification"
+        android:text="Notification测试"
+        android:textColor="#FFFFFF"
+        android:layout_width="339dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#08A86D"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="OnClick"/>
+</LinearLayout>
